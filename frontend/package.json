@@ -1,0 +1,46 @@
+{
+  "name": "WhaleHarasser",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.7",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@iexec/dataprotector": "^0.3.0",
+    "@iexec/web3mail": "^0.5.2",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/lab": "^5.0.0-alpha.143",
+    "@mui/material": "^5.14.8",
+    "@mui/styled-engine": "^5.14.8",
+    "@mui/styled-engine-sc": "^5.14.8",
+    "@mui/styles": "^5.14.7",
+    "@mui/system": "^5.14.8",
+    "@types/node": "20.5.4",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "bignumber.js": "^9.1.2",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "ethers": "^5.7.2",
+    "fetch": "^1.1.0",
+    "iexec": "^8.4.0",
+    "next": "13.4.19",
+    "next-transpile-modules": "^10.0.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^2.11.2",
+    "react-dom": "18.2.0",
+    "react-flip-move": "^3.0.5",
+    "react-transition-group": "^4.4.5",
+    "typescript": "5.1.6"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^5.0.10"
+  }
+}
