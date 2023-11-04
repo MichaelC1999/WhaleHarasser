@@ -51,7 +51,7 @@ const BuildDefiHistory = ({ setErrorMessage }: BuildDefiHistoryProps) => {
             //         whaleHarasser: true
             //     }
             // })
-
+            console.log('deployed email')
         } catch (err) {
             console.log(err)
         }
@@ -59,7 +59,8 @@ const BuildDefiHistory = ({ setErrorMessage }: BuildDefiHistoryProps) => {
 
     const getSubgraphData = async () => {
         const iExecInstance = new IExecOrderModule({ ethProvider: windowOverride.ethereum })
-        const apporderTemplate = await iExecInstance.createRequestorder({ app: "0xD6cD8C017FB1dFF1C54fE9769C8D2C296996566c", category: 0, params: { iexec_args: 'hello world, 0x30CF84E121F2105e638746dCcCffebCE65B18F7C' } });
+        const apporderTemplate = await iExecInstance.createRequestorder({ app: "0xfe7773F87947908C3A14FEEdAAfD8D5eC2b6e2c2", category: 0, params: { iexec_args: 'whaleharasser 0xF80cAb395657197967EaEdf94bD7f8a75Ad8F373' } });
+        console.log(apporderTemplate)
     }
 
     let button: React.JSX.Element = <Button disabled={!windowOverride?.ethereum?.selectedAddress} className={classes.depoButton} onClick={() => setQueryExecutionTriggered(true)}>View My DeFi History</Button>;

@@ -1,5 +1,5 @@
 {
-  "description": "My iExec resource description, must be at least 150 chars long in order to pass the validation checks. Describe your application, dataset or workerpool to your users",
+  "description": "whaleharasser is a protocol that allows users to charge marketers to send targeted content by email based off of their DeFi history. The marketers only see their ethereum address, never is their email address exposed.",
   "license": "MIT",
   "author": "?",
   "social": {
@@ -10,9 +10,9 @@
   "buyConf": {},
   "app": {
     "owner": "0xDDD1e2E533CA71CDbbb420fcEE11fEc54dB32df3",
-    "name": "hello-world",
+    "name": "whaleharasser",
     "type": "DOCKER",
-    "multiaddr": "iexechub/python-hello-world:7.0.5",
-    "checksum": "0xaea3f77f09567fa0da20b86d9b7dac3ef958b7d4751a37cfa7cd7851f57ac191"
+    "multiaddr": "docker.io/cm172596/whaleharasser:1.0.1",
+    "checksum": "0x8a4f4f4d05664d8ecd45ced751e419192cd658a0f1ac53ccd72179b74b8dd9f9"
   }
 }

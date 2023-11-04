@@ -27,7 +27,7 @@
     "bignumber.js": "^9.1.2",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
-    "ethers": "^5.7.2",
+    "ethers": "^6.8.1",
     "fetch": "^1.1.0",
     "iexec": "^8.4.0",
     "next": "13.4.19",

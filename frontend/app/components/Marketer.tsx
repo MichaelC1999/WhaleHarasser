@@ -1,9 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Button, CircularProgress, IconButton, InputAdornment, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Tooltip, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import { ethers } from 'ethers';
-import BigNumber from 'bignumber.js';
-import SubgraphQueryEntry from './SubgraphQueryEntry';
 import { IExecDataProtector } from "@iexec/dataprotector";
 import { IExecWeb3mail } from "@iexec/web3mail";
 import Criteria from './Criteria';

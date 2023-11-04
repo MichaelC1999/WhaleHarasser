@@ -4,7 +4,6 @@ const axios = require("axios");
 (async () => {
     try {
         const iexecOut = process.env.IEXEC_OUT;
-        // Do whatever you want (let's write hello world here)
 
         // Append some results in /iexec_out/
         // Declare everything is computed
@@ -91,21 +90,18 @@ const axios = require("axios");
                                 if (pos?.snapshots?.length > 0) {
                                     pos?.snapshots?.forEach((snap) => {
                                         if (Number(snap.balanceUSD) > maximumPositionSize) {
-
                                             maximumPositionSize = Number(snap.balanceUSD);
                                         }
                                     })
                                 }
                             }
                         })
-                        console.log(currentPositionBalances, maximumPositionSize)
                     }
                 } else if (data.account) {
                     if (data?.account?.swaps?.length > 0) {
                         data?.account?.swaps?.forEach((swap) => {
                             cumulativeSwapVolume += Number(swap.amountInUSD)
                         })
-                        console.log(cumulativeSwapVolume)
                     }
                 }
             }
@@ -136,7 +132,9 @@ const axios = require("axios");
             `${iexecOut}/computed.json`,
             JSON.stringify(computedJsonObj)
         );
-        await fsPromises.writeFile(`${iexecOut}/result.txt`, JSON.stringify({ protocolHistory: resObjects, cumulativeSwapVolume, maximumPositionSize, currentPositionBalances, calculatedPricePerEngage }));
+        const returnObject = { protocolHistory: resObjects, cumulativeSwapVolume, maximumPositionSize, currentPositionBalances, calculatedPricePerEngage }
+        console.log("DATA RETURNED", returnObject)
+        await fsPromises.writeFile(`${iexecOut}/result.txt`, JSON.stringify(returnObject));
     } catch (e) {
         console.log(e);
         process.exit(1);
