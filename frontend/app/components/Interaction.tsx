@@ -20,7 +20,7 @@ const Interaction = ({ setErrorMessage }: InteractionProps) => {
     if (displayType === "user") {
         display = (<>
             <div className={classes.headerContainer}>
-                <span>Query your transaction history and get a quote on your data! WhaleHarasser checks historical DeFi Protocol data to get a detailed picture of how valuable you are as a DeFi consumer. After presenting you a quote, you can approve to be approached by DeFi marketers paying that quote each time!</span>
+                <span>Start by querying below your DeFi transaction summary to discover the value of your attention. When DeFi projects or marketers want to contact you, they will pay you to send an email without ever seeing anything other than your wallet address! Take control of your DeFi experience and unlock the potential to earn while getting the best alpha.</span>
             </div>
             <BuildDefiHistory setErrorMessage={setErrorMessage} />
         </>)

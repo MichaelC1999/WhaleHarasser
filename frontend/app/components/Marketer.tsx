@@ -231,7 +231,7 @@ const Marketer = ({ setErrorMessage }: MarketerProps) => {
         introHeader = (<>
             <Typography variant="h3">New Email Campaign</Typography>
             <div className={classes.headerContainer}>
-                <span>Target high quality users for your marketing campaign. WhaleHarasser lets users pull their DeFi transaction history and provide their email. Using this, you can set custom parameters to email users who meet specific criteria based on their behaviors and transaction history. After getting these users, you can send an email. Paying a fee to each of the users. Set the parameters below: </span>
+                <span>Unlock high-quality users for your marketing campaign with WhaleHarasser. Our platform allows users to share their DeFi transaction history and provide their email. With this information, you can establish customized criteria to target users based on their transaction behavior and history. Once you've selected your audience, you can send them emails while compensating them for their engagement. Configure the parameters below to precisely tailor your marketing strategy:</span>
             </div>
         </>)
     }
