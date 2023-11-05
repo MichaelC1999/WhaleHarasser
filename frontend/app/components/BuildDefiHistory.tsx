@@ -48,7 +48,7 @@ const BuildDefiHistory = ({ setErrorMessage }: BuildDefiHistoryProps) => {
             // const protectedData = await dataProtector.protectData({
             //     data: {
             //         email,
-            //         whaleHarasser: true
+            //         WhaleWhisper: true
             //     }
             // })
             console.log('deployed email')
@@ -59,7 +59,7 @@ const BuildDefiHistory = ({ setErrorMessage }: BuildDefiHistoryProps) => {
 
     const getSubgraphData = async () => {
         const iExecInstance = new IExecOrderModule({ ethProvider: windowOverride.ethereum })
-        const apporderTemplate = await iExecInstance.createRequestorder({ app: "0xfe7773F87947908C3A14FEEdAAfD8D5eC2b6e2c2", category: 0, params: { iexec_args: 'whaleharasser 0xF80cAb395657197967EaEdf94bD7f8a75Ad8F373' } });
+        const apporderTemplate = await iExecInstance.createRequestorder({ app: "0xfe7773F87947908C3A14FEEdAAfD8D5eC2b6e2c2", category: 0, params: { iexec_args: 'WhaleWhisper 0xF80cAb395657197967EaEdf94bD7f8a75Ad8F373' } });
         console.log(apporderTemplate)
     }
 

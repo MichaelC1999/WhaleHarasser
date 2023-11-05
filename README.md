@@ -1,12 +1,12 @@
-# WhaleHarasser
+# WhaleWhisper
 
 Live Demo: https://whale-harasser.vercel.app/
 Bellecour Graph Query dApp: 0xfe7773F87947908C3A14FEEdAAfD8D5eC2b6e2c2
 
-WhaleHarasser is a groundbreaking DeFi marketing platform that empowers users to receive targeted marketing content by email, all while preserving their privacy and data security. This platform offers users a unique opportunity to monetize their interaction with DeFi protocols, and it provides marketers with an effective way to reach high-value DeFi users.
+WhaleWhisper is a groundbreaking DeFi marketing platform that empowers users to receive targeted marketing content by email, all while preserving their privacy and data security. This platform offers users a unique opportunity to monetize their interaction with DeFi protocols, and it provides marketers with an effective way to reach high-value DeFi users.
 
 ## Introduction
-WhaleHarasser redefines email marketing in the DeFi space, bridging the gap between users and marketers in a privacy-focused and secure manner. Below are the key aspects of this project:
+WhaleWhisper redefines email marketing in the DeFi space, bridging the gap between users and marketers in a privacy-focused and secure manner. Below are the key aspects of this project:
 
 - User Empowerment: Users can selectively opt to receive marketing content and earn compensation for their participation. This novel approach allows users to take control of their DeFi experience and profit from their history of significant transactions.
 
@@ -16,12 +16,12 @@ WhaleHarasser redefines email marketing in the DeFi space, bridging the gap betw
 
 - Targeted Advertising: Marketers can specifically target users who meet distinct criteria based on their DeFi behaviors and transaction history. For example, they can target users who have deposited large sums, interacted with specific protocols, or achieved a particular yield. This precision allows projects to reach the most relevant and engaged audiences.
 
-- Advanced Data Collection: WhaleHarasser employs an iExec application to query subgraph data from multiple DeFi protocols. The iExec decentralized app ensures that the price per contact is correctly assigned and fairly compensated to users, considering their historical metrics.
+- Advanced Data Collection: WhaleWhisper employs an iExec application to query subgraph data from multiple DeFi protocols. The iExec decentralized app ensures that the price per contact is correctly assigned and fairly compensated to users, considering their historical metrics.
 
 ## Key Features
 ### For Users:
 Query your transaction history and receive a calculated rate for marketing engagement.
-Deploy protected data containing your email address and 'whaleharasser' property for privacy and schema searching.
+Deploy protected data containing your email address and 'WhaleWhisper' property for privacy and schema searching.
 Every time a DeFi Protocol or a marketer wants to contact you, they must pay your calculated rate in RLC. You get paid to get Alpha! The high engagement cost enforces quality and ensures that you are only contacted about opportunities that are very specific to you. Users with a history involving larger values or stronger engagement are calculated a higher rate.
 
 ### For Marketers:
@@ -33,7 +33,7 @@ The platform's flexibility allows for a wide range of filtering options. For ins
 - Users who have been liquidated on Aave for more than $1 million.
 
 ## Future Development
-WhaleHarasser holds great potential for future development, including:
+WhaleWhisper holds great potential for future development, including:
 
 - Implementation of marketing query logic within iExec applications for enhanced efficiency.
 - Exploration of dynamic pricing models where the price paid to a user depends on how specific the criteria is.

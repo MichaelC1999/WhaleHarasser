@@ -121,7 +121,7 @@ const Criteria = ({ criteria, passCriteria, hasUserMetrics }: any) => {
         }))
         arrayOfCriteria.unshift(<Paper key={"test1"} elevation={3} style={{ padding: '8px', margin: '8px 0px' }}>
             <Typography variant="subtitle1">
-                Users who have connected their Ethereum Address to an Email on WhaleHarasser
+                Users who have connected their Ethereum Address to an Email on WhaleWhisper
             </Typography>
         </Paper>)
         return (

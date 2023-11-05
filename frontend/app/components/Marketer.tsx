@@ -95,7 +95,7 @@ const Marketer = ({ setErrorMessage }: MarketerProps) => {
             // const usersMetaData =  = await dataProtector.fetchProtectedData({
             //     schema: {
             //         "email": "string",
-            //         "whaleHarasser": "boolean"
+            //         "WhaleWhisper": "boolean"
             //     }
             // })
 
@@ -108,7 +108,7 @@ const Marketer = ({ setErrorMessage }: MarketerProps) => {
                     creationTimestamp: 1687528535,
                     schema: {
                         "email": "string",
-                        "whaleHarasser": "boolean"
+                        "WhaleWhisper": "boolean"
                     }
                 },
                 {
@@ -118,7 +118,7 @@ const Marketer = ({ setErrorMessage }: MarketerProps) => {
                     creationTimestamp: 1687528535,
                     schema: {
                         "email": "string",
-                        "whaleHarasser": "boolean"
+                        "WhaleWhisper": "boolean"
                     }
                 },
                 {
@@ -128,7 +128,7 @@ const Marketer = ({ setErrorMessage }: MarketerProps) => {
                     creationTimestamp: 1687528535,
                     schema: {
                         "email": "string",
-                        "whaleHarasser": "boolean"
+                        "WhaleWhisper": "boolean"
                     }
                 }
             ];
@@ -231,7 +231,7 @@ const Marketer = ({ setErrorMessage }: MarketerProps) => {
         introHeader = (<>
             <Typography variant="h3">New Email Campaign</Typography>
             <div className={classes.headerContainer}>
-                <span>Unlock high-quality users for your marketing campaign with WhaleHarasser. Our platform allows users to share their DeFi transaction history and provide their email. With this information, you can establish customized criteria to target users based on their transaction behavior and history. Once your audience has been selected, you can send them emails while compensating them for their engagement. Configure the parameters below to precisely tailor your marketing strategy:</span>
+                <span>Unlock high-quality users for your marketing campaign with WhaleWhisper. Our platform allows users to share their DeFi transaction history and provide their email. With this information, you can establish customized criteria to target users based on their transaction behavior and history. Once your audience has been selected, you can send them emails while compensating them for their engagement. Configure the parameters below to precisely tailor your marketing strategy:</span>
             </div>
         </>)
     }

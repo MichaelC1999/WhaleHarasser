@@ -57,7 +57,7 @@ const HomePage = () => {
         </div>
         <Container maxWidth="lg" className={classes.contentContainer}>
           <Typography className={classes.header}>
-            WhaleHarasser Protocol
+            WhaleWhisper Protocol
           </Typography>
 
           <div className={classes.childContainer}>
