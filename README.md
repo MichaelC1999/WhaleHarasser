@@ -1,6 +1,6 @@
 # WhaleWhisper
 
-Live Demo: https://whale-harasser.vercel.app/
+Live Demo: https://whale-whisper.vercel.app/
 Bellecour Graph Query dApp: 0xfe7773F87947908C3A14FEEdAAfD8D5eC2b6e2c2
 
 WhaleWhisper is a groundbreaking DeFi marketing platform that empowers users to receive targeted marketing content by email, all while preserving their privacy and data security. This platform offers users a unique opportunity to monetize their interaction with DeFi protocols, and it provides marketers with an effective way to reach high-value DeFi users.
